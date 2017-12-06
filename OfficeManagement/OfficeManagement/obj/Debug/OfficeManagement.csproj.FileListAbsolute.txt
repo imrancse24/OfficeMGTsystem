@@ -1,0 +1,33 @@
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll.config
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\OfficeManagement.pdb
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\EntityFramework.dll
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\EntityFramework.xml
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.dll
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.pdb
+C:\Users\SOJIB\documents\visual studio 2013\Projects\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.csprojResolveAssemblyReference.cache
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.csprojResolveAssemblyReference.cache
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.dll
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.pdb
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll.config
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\OfficeManagement.pdb
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\EntityFramework.dll
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\EntityFramework.xml
+C:\Users\Arman\Desktop\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.xml
+E:\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll.config
+E:\OfficeManagement\OfficeManagement\bin\OfficeManagement.dll
+E:\OfficeManagement\OfficeManagement\bin\OfficeManagement.pdb
+E:\OfficeManagement\OfficeManagement\bin\EntityFramework.dll
+E:\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.dll
+E:\OfficeManagement\OfficeManagement\bin\EntityFramework.xml
+E:\OfficeManagement\OfficeManagement\bin\EntityFramework.SqlServer.xml
+E:\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.dll
+E:\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.pdb
+E:\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.csprojResolveAssemblyReference.cache
+E:\LINKUP TECHNOLOGY PROJECT\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.csprojResolveAssemblyReference.cache
+E:\LINKUP TECHNOLOGY PROJECT\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.dll
+E:\LINKUP TECHNOLOGY PROJECT\OfficeManagement\OfficeManagement\obj\Debug\OfficeManagement.pdb

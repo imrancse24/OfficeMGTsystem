@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OfficeManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_DepartmentInfo">
+    <Key>
+      <PropertyRef Name="Department_Id" />
+    </Key>
+    <Property Name="Department_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Department_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Office_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_EmployeeInfo">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EID" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Office_Id" Type="int" />
+    <Property Name="Department_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_EmplyoeeAttendance">
+    <Key>
+      <PropertyRef Name="Attendance_Id" />
+    </Key>
+    <Property Name="Attendance_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Attendance_Date" Type="date" />
+    <Property Name="In_Time" Type="time" Precision="7" />
+    <Property Name="Out_Time" Type="time" Precision="7" />
+    <Property Name="Edit_Date" Type="datetime" />
+    <Property Name="Edit_User" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_OfficeInfo">
+    <Key>
+      <PropertyRef Name="Office_Id" />
+    </Key>
+    <Property Name="Office_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Office_Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="OfficeManagementModelStoreContainer">
+    <EntitySet Name="tbl_DepartmentInfo" EntityType="Self.tbl_DepartmentInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EmployeeInfo" EntityType="Self.tbl_EmployeeInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EmplyoeeAttendance" EntityType="Self.tbl_EmplyoeeAttendance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OfficeInfo" EntityType="Self.tbl_OfficeInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

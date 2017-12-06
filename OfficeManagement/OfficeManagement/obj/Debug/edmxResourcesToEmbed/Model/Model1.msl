@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OfficeManagementModelStoreContainer" CdmEntityContainer="OfficeManagementEntities">
+    <EntitySetMapping Name="tbl_DepartmentInfo">
+      <EntityTypeMapping TypeName="OfficeManagementModel.tbl_DepartmentInfo">
+        <MappingFragment StoreEntitySet="tbl_DepartmentInfo">
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Office_Id" ColumnName="Office_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EmployeeInfo">
+      <EntityTypeMapping TypeName="OfficeManagementModel.tbl_EmployeeInfo">
+        <MappingFragment StoreEntitySet="tbl_EmployeeInfo">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EID" ColumnName="EID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="Office_Id" ColumnName="Office_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EmplyoeeAttendance">
+      <EntityTypeMapping TypeName="OfficeManagementModel.tbl_EmplyoeeAttendance">
+        <MappingFragment StoreEntitySet="tbl_EmplyoeeAttendance">
+          <ScalarProperty Name="Attendance_Id" ColumnName="Attendance_Id" />
+          <ScalarProperty Name="EID" ColumnName="EID" />
+          <ScalarProperty Name="Attendance_Date" ColumnName="Attendance_Date" />
+          <ScalarProperty Name="In_Time" ColumnName="In_Time" />
+          <ScalarProperty Name="Out_Time" ColumnName="Out_Time" />
+          <ScalarProperty Name="Edit_Date" ColumnName="Edit_Date" />
+          <ScalarProperty Name="Edit_User" ColumnName="Edit_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_OfficeInfo">
+      <EntityTypeMapping TypeName="OfficeManagementModel.tbl_OfficeInfo">
+        <MappingFragment StoreEntitySet="tbl_OfficeInfo">
+          <ScalarProperty Name="Office_Id" ColumnName="Office_Id" />
+          <ScalarProperty Name="Office_Name" ColumnName="Office_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
